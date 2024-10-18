@@ -6,3 +6,7 @@ Day 2: Set up a database using Flask SQLAlchemy. Create a model to represent exp
 
 https://github.com/user-attachments/assets/c8252f0c-151d-4ced-9b72-5d8df6457006
 
+Day 3: Enhance the appearance of the expenses page with CSS. Implement a responsive navbar to improve navigation across pages, ensuring a user-friendly and cohesive interface.
+
+https://github.com/user-attachments/assets/441c2c21-847a-4aad-894d-82f5fe64d6b7
+

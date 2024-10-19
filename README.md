@@ -14,5 +14,11 @@ Day 4: Implement delete functionality to remove expenses.
 
 https://github.com/user-attachments/assets/4c5172ab-aa4e-442f-b977-75f62c5c8159
 
+Day 5: Implement edit functionality to update existing expenses.
+
+https://github.com/user-attachments/assets/b967b4c0-99a2-41f8-b27e-c9ce06ad8ca8
+
+
+
 
 

@@ -10,3 +10,9 @@ Day 3: Enhance the appearance of the expenses page with CSS. Implement a respons
 
 https://github.com/user-attachments/assets/441c2c21-847a-4aad-894d-82f5fe64d6b7
 
+Day 4: Implement delete functionality to remove expenses.
+
+https://github.com/user-attachments/assets/4c5172ab-aa4e-442f-b977-75f62c5c8159
+
+
+

@@ -18,6 +18,11 @@ Day 5: Implement edit functionality to update existing expenses.
 
 https://github.com/user-attachments/assets/b967b4c0-99a2-41f8-b27e-c9ce06ad8ca8
 
+Day 6: Calculate the total expenses and display it on the webpage.
+
+https://github.com/user-attachments/assets/8e0e723f-2e91-46c6-a4e3-e33fcefb9dd1
+
+
 
 
 

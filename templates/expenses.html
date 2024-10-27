@@ -9,7 +9,7 @@
         <div class="card-body">
           <div class="row">
             <div class="col-md-2">{{expense.expensename}}</div>
-            <div class="col-md-2">{{expense.amount}}</div>
+            <div class="col-md-2">${{expense.amount}}</div>
             <div class="col-md-2">{{expense.date}}</div>
             <div class="col-md-2">
               <span class="badge badge-primary">{{expense.category}}</span>
@@ -41,7 +41,7 @@
         <div class="card-body">
           <div class="row">
             <div class="col-md-6">Food</div>
-            <div class="col-md-6">{{t_food}}</div>
+            <div id="tfood" class="col-md-6">{{t_food}}</div>
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@
         <div class="card-body">
           <div class="row">
             <div class="col-md-6">Entertainment</div>
-            <div class="col-md-6">{{t_entertainment}}</div>
+            <div id="tentertainment" class="col-md-6">{{t_entertainment}}</div>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@
         <div class="card-body">
           <div class="row">
             <div class="col-md-6">Business</div>
-            <div class="col-md-6">{{t_business}}</div>
+            <div id="tbusiness" class="col-md-6">{{t_business}}</div>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@
         <div class="card-body">
           <div class="row">
             <div class="col-md-6">Other</div>
-            <div class="col-md-6">{{t_other}}</div>
+            <div id="tother" class="col-md-6">{{t_other}}</div>
           </div>
         </div>
       </div>
@@ -77,6 +77,38 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="col-md-6">
+      <h3 class="mt-5">Expense Breakdown Chart</h3>
+      <canvas id="myChart" width="200" height="200"></canvas>
+      <script>
+        let food = document.getElementById('tfood').innerHTML;
+        let entertainment = document.getElementById('tentertainment').innerHTML;
+        let business = document.getElementById('tbusiness').innerHTML;
+        let other = document.getElementById('tother').innerHTML;
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+          type: 'pie',
+          data: {
+            labels: ['Food', 'Entertainment', 'Business', 'Other'],
+            datasets: [
+              {
+                label: '',
+                data: [food, entertainment, business, other],
+                borderWidth: 1,
+              },
+            ],
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true,
+              },
+            },
+          },
+        });
+      </script>
     </div>
   </div>
 </div>

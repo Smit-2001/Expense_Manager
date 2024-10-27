@@ -22,6 +22,12 @@ Day 6: Calculate the total expenses and display it on the webpage.
 
 https://github.com/user-attachments/assets/8e0e723f-2e91-46c6-a4e3-e33fcefb9dd1
 
+Day 7: Integrated Chart.js for expense visualization, enhanced page styling for a seamless user experience and completed the project.
+
+https://github.com/user-attachments/assets/770d6d56-e476-4e3e-8b11-68604af873d8
+
+
+
 
 
 
